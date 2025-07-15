@@ -21,4 +21,4 @@ const options = {
     titleAlignment: 'center',
 };
 
-console.log(boxen(intro + linkList, options));
+console.log(boxen(intro + '\n' + linkList, options));
